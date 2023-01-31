@@ -7,79 +7,133 @@
     <title>Inicio</title>
     <link rel="shortcut icon" href="PAGINA WEB/favicon.ico" type="image/x-icon">
     <!-- linkeamos css al html -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- uso esto para usar iconos -->
     <script src="https://kit.fontawesome.com/7f9e72111a.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP INICIO -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <header>
     
-        <a href="index.html" class="logo">
-           <img src="images/640px-Apple-logo.png" alt="Logo de apple store" class="logo-img">
-          <h2 class="logo-nombre">Apple Store MDP</h2>
-        </a>
-        <nav>
-        
-             <a href="pages/IniciarSesion.html">Iniciar Sesion</a>   
-             <a href="pages/FAQ.html">Preguntas Frecuentes</a>
-             <a href="pages/Sobrenosotros.html">Sobre Nosotros</a>
-             <a href="pages/Productos.html">Productos</a>
-            
-        
-    </nav>
-    </header>
     
-    <!-- ends nav -->
-    <main>
-        <section>
-            <h1>Inicio</h1>
-            <p>
-                <b>Apple Store MDP</b> es una pagina de Re-Sell de Iphones de todo tipo, <b>sellados de fábrica y tambien usados en excelente estado</b>; si estas necesitando un dispositivo Apple a buen precio,tu consulta no molesta!
-            </p>
-                <a href="https://www.instagram.com/applestore_mdp/" target="_blank">Click acá para consultar precios
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-white p-3" id="menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <span class="text-white fs-5 fw-bold"> Apple Store MDP</span> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active text-white " aria-current="page" href="index.html">Inicio</a>
+                  </li>
 
-                </a>
-        </section>
-        <p>
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste incidunt sint odio, atque aut in maiores quidem tempore libero soluta corrupti quam earum ipsum praesentium quis voluptatem. Recusandae, rerum veritatis? 
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste incidunt sint odio, atque aut in maiores quidem tempore libero soluta corrupti quam earum ipsum praesentium quis voluptatem. Recusandae, rerum veritatis? 
-         </p>
-         <p>
-           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste incidunt sint odio, atque aut in maiores quidem tempore libero soluta corrupti quam earum ipsum praesentium quis voluptatem. Recusandae, rerum veritatis? 
-        </p>
-        <!-- ends intro -->
-        <section></section>
-        <!-- ends contacto -->
-    </main>
-    <!-- ends main -->
-    <footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="images/640px-Apple-logo.png" alt="Logo de Apple Store">
-                    </a>
-                </figure>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./pages/Productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./pages/IniciarSesion.html">Iniciar Sesion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./pages/Sobrenosotros.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./pages/FAQ.html">Preguntas Frecuentes</a>
+                  </li>
+                </ul>
+
+                  
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-warning btn-primary-outline-success" type="submit">Suscribirse</button>
+                </form>
+              </div>
             </div>
-            <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repudiandae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repudiandae.</p>
+          </nav>
+          <!-- ends nav -->
+
+          <!-- SLIDERS -->
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./images/slider1.jpg" class="d-block w-100" alt="slider1">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/slider2.jpg" class="d-block w-100" alt="slider2">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/slider3.jpg" class="d-block w-100" alt="slider3">
+              </div>
             </div>
-             <div class="box">
-                <h2>SEGUINOS</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#"class="fa fa-whatsapp"></a>
-                </div>
-             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+            
+        <!-- ENDS SLIDERS -->
+
+
+     <!-- INTRO -->
+     <section class="w-50 mx-auto text-center pt-5" id="intro">
+     <h1 class="p-3 f-2 border-top border-3">Tus expertos locales en Apple.<span></span></h1>
+     <p class="p-3 fs-4">Somos <span class="text-primary">Apple Store MDP </span> , una empresa nacida en Mar del Plata pero con la visión de ser los mas grandes del pais.Buscamos divertirte con la más amplia gama de productos, incluyendo todos los accesorios necesarios para que los disfrutes al máximo</span></p>
+     </section>
+
+
+
+     <!-- SERVICIOS/PRODUCTOS -->
+
+     <section class="container-fluid">
+       <div class="row w-75 mx-auto servicio-fila">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+            <img src="./images/IPHONE INICIO.png" class="img-thumbnail" alt="iphone" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Iphone</h3>
+                <p class="px-4">Una vista al futuro</p>
+            </div>
         </div>
-        <div class="grupo-2">
-            <small>&copy; 2023 <b>Apple Store MDP</b> - Todos los derechos Reservados.</small>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+            <img src="./images/MACBOOK INICIO.png" class="img-thumbnail" alt="macbook" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">MacBook</h3>
+                <p class="px-4">Una vista al futuro</p>
+            </div>
+        </div>
+       </div>
+       <div class="row w-75 mx-auto servicio-fila">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+            <img src="./images/WATCH INICIO.png" class="img-thumbnail" alt="watch" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Watch</h3>
+                <p class="px-4">Una vista al futuro</p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+            <img src="./images/IPAD INICIO.png" class="img-thumbnail" alt="ipad" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">MacBook</h3>
+                <p class="px-4">Una vista al futuro</p>
+            </div>
+        </div>
+       </div>
+     </section>
+    
+    
+    <!-- FOOTER -->
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">Apple Store MDP. &copy; Todos Los Derechos Reservados 2023 </p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
         </div>
     </footer>
     <!-- ends footer -->
@@ -88,6 +142,6 @@
    
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html> 

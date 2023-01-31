@@ -4,12 +4,8 @@
 }
 
 body{
-    font-family: 'Roboto Mono', monospace;
-    margin: 0;
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
-    background-color: #efefef;
+    font-family: 'Roboto Mono', monospace !important;   
+    overflow-x: hidden; 
 }
 header{
     display: flex;
@@ -20,96 +16,47 @@ header{
     padding: 10px;
      /* ESTO ES PARA CAMBIAR EL HEADER */
 }
-
-.logo{
-    display: flex;
-    align-items: center;
-    /* ESTO ES PARA CAMBIAR EL NOMBRE DEL LOGO */
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+    color: #efefef;
+}
+.carousel-inner{
+  max-height: 39rem;  
 }
 
-.logo img{
-    height: 50px;
-    margin-right: 10px;
-     /* ESTO ES PARA CAMBIAR LA IMAGEN DEL LOGO */
-}
 
-a{
-    text-decoration: none;
-    color: white;
-     /* ESTO ES PARA CAMBIAR COLOR DE LA LETRA DE LA PAG */
-}
-nav a{
-    font-weight: 600;          
-    padding-right: 10px;
+.navbar a{
+    font-weight: 600 !important;          
+    padding-right: 10px !important;
     /* ESTO ES PARA CAMBIAR LETRAS DEL NAV ETC */
 }
-nav a:hover{
-    color: greenyellow;
+.navbar a:hover{
+    color: greenyellow !important;
     /* ESTO ES PARA CAMBIAR COLOR CUANDO MUEVO POR EL NAV */
 }
 
 /* PIE DE PAGINA */
-.pie-pagina{
-    width: 100%;
-    background-color: black;
-    position: absolute;
-    
-}
-.pie-pagina .grupo-1{
-    width: 65%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-.pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-.pie-pagina .grupo-1 .box figure img{
-    width: 70px;
-    
-}
-.pie-pagina .grupo-1 .box h2{
-    color: #fff;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
-.pie-pagina .grupo-1 .box p{
-    color: #efefef;
-    margin-bottom: 10px;
 
+footer {
+    background: #000;
+    min-height: 100px;
+    
+    
 }
-.pie-pagina .grupo-1 .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45%;
-    height: 45%;
-    line-height: 45px;
-    color: #fff;
-    margin-right: 10px;
-    background-color: rgba(22, 22, 21, 0.374);
+footer p{
+    color: #f3f3f3;
     text-align: center;
-    transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover{
-    color: greenyellow;
-}
-.pie-pagina .grupo-2{
-    background-color: rgba(22, 22, 21, 0.374);
-    padding: 15px 10px;
-    text-align: center;
-    color: #fff;
-}
-.contenedor{
-    position: relative;
-    display:inline-block;
-    text-align: center;
+#iconos i {
+    font-size:26px;
+    padding: 0 8px;
+    color: #f3f3f3;
 }
 
 /* TERMINA EL PIE DE PAGINA */
@@ -208,6 +155,73 @@ nav a:hover{
     margin: 16px 0;
     font-size: 16px;
 }
+
+footer {
+    background: #000;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i {
+    font-size:26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+/* MEDIA QUERIES PANTALLA ANCHA */
+
+
+
+
+
+/* MEDIA QUERIES PANTALLA SM*/
+@media (max-width:768px) {
+    #intro{
+        width: 90% !important;
+    }
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+
+}
+#quienes-somos .img-container{
+    background-image: none;
+
+}
+#quienes-somos .texto{
+    text-align: center;
+    justify-content: center;
+}
+#quienes-somos h2{
+    
+    width: auto;
+    text-align: left;
+    margin-top: 0px;
+    justify-content: center;
+
+}
+    
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES PANTALLA EXTRA-SM */
+@media (max-width: 576px) {
+.icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+
+
+}
+
 
 
 

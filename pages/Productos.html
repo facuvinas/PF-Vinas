@@ -5,30 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="shortcut icon" href="PAGINA WEB/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../PAGINA WEB/favicon.ico WEB/favicon.ico" type="image/x-icon">
     <!-- linkeamos css al html -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
     <!-- uso esto para usar iconos -->
     <script src="https://kit.fontawesome.com/7f9e72111a.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP INICIO -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <header>
     
-        <a href="../index.html" class="logo">
-           <img src="../images/640px-Apple-logo.png" alt="Logo de apple store" class="logo-img">
-          <h2 class="logo-nombre">Apple Store MDP</h2>
-        </a>
-        <nav>
-        
-             <a href="IniciarSesion.html">Iniciar Sesion</a>   
-             <a href="FAQ.html">Preguntas Frecuentes</a>
-             <a href="Sobrenosotros.html">Sobre Nosotros</a>
-             <a href="#">Productos</a>
-            
-        
-    </nav>
-    </header>
     
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-dark p-3" id="menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <span class="text-white fs-5 fw-bold"> Apple Store MDP</span> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active text-white " aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="IniciarSesion.html">Iniciar Sesion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="Sobrenosotros.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="FAQ.html">Preguntas Frecuentes</a>
+                  </li>
+                </ul>
+
+                  
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-warning btn-primary-outline-success" type="submit">Suscribirse</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     <!-- ends nav -->
     <main>
         <section>
@@ -54,32 +77,13 @@
         <!-- ends contacto -->
     </main>
     <!-- ends main -->
-    <footer class="pie-pagina">
-        <div class="grupo-1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="../images/640px-Apple-logo.png" alt="Logo de Apple Store">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repudiandae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repudiandae.</p>
-            </div>
-             <div class="box">
-                <h2>SEGUINOS</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#"class="fa fa-whatsapp"></a>
-                </div>
-             </div>
-        </div>
-        <div class="grupo-2">
-            <small>&copy; 2023 <b>Apple Store MDP</b> - Todos los derechos Reservados.</small>
+    <!-- FOOTER -->
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">Apple Store MDP. &copy; Todos Los Derechos Reservados 2023 </p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
         </div>
     </footer>
     <!-- ends footer -->
