@@ -1,0 +1,29 @@
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.product{
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.product__img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.product__title{
+    text-align: center;
+}
+.product__price{
+    color: #FF4E00;
+    font-weight: bold;
+}
+.product__icon{
+    display: block;
+    margin: 10px 0;
+}
+.product:hover .product__icon{
+    color: #FF4E00;
+}

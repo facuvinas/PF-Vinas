@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="../PAGINA WEB/favicon.ico WEB/favicon.ico" type="image/x-icon">
     <!-- linkeamos css al html -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- uso esto para usar iconos -->
     <script src="https://kit.fontawesome.com/7f9e72111a.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP INICIO -->
@@ -23,8 +23,8 @@
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <span class="text-white fs-5 fw-bold"> Apple Store MDP</span> </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-white"></span>
               </button>
               <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -36,13 +36,13 @@
                     <a class="nav-link text-white" href="#">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="IniciarSesion.html">Iniciar Sesion</a>
+                    <a class="nav-link text-white" href="iniciar-sesion.html">Iniciar Sesion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="Sobrenosotros.html">Sobre Nosotros</a>
+                    <a class="nav-link text-white" href="sobre-nosotros.html">Sobre Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="FAQ.html">Preguntas Frecuentes</a>
+                    <a class="nav-link text-white" href="faq.html">Preguntas Frecuentes</a>
                   </li>
                 </ul>
 
@@ -55,20 +55,109 @@
             </div>
           </nav>
     <!-- ends nav -->
-    <main>
-        <section>
-            <h1>Productos</h1>
-            <p>
-                <b>Apple Store MDP</b> es una pagina de Re-Sell de Iphones de todo tipo, <b>sellados de fábrica y tambien usados en excelente estado</b>; si estas necesitando un dispositivo Apple a buen precio,tu consulta no molesta!
-            </p>
-                <a href="https://www.instagram.com/applestore_mdp/" target="_blank">Click acá para consultar precios
-
-                </a>
-        </section>
-        
-        <!-- ends intro -->
-        <section></section>
-        <!-- ends contacto -->
+    <main class="main">
+      <div class="container">
+      <h2 class="main-title">Algunos de nuestros productos</h2>
+      <section class="container-products">
+        <div class="product">
+          <img src="../images/iphone-13-256gb-midnight.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">iPhone 13 256GB - Midnight</h3>
+            <span class="product__price">$615</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/macbook-pro-16-apple-m1-pro-chip-10core-cpu-16core-gpu-512gb-ssd-space-grey.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">MacBook Pro 16" Apple M1</h3>
+            <span class="product__price">$1549</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/iphone-13-256gb-starlight.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">iPhone 13 256GB -Starlight</h3>
+            <span class="product__price">$615</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/apple-watch-se-gps-40mm-gold-aluminium-casestarlight-sport-band.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Apple Watch Series 7 GPS - 41mm Starlight Aluminium Case</h3>
+            <span class="product__price">$187</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/iphone-13-pro-max-256gb-silver.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">iPhone 13 Pro Max 256GB - Silver</h3>
+            <span class="product__price">$814</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/macbook-pro-16-apple-m1-pro-chip-10core-cpu-16core-gpu-1tb-ssd-silver.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">MacBook Air 13" M2</h3>
+            <span class="product__price">$662</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/iphone-13-pro-256gb-sierra-blue.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">iPhone 13 Pro 128GB- Sierra Blue</h3>
+            <span class="product__price">$679</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/apple-watch-series-7-gps-41mm-green-aluminium-caseclover-sport-band.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Apple Watch Series 7 GPS - 41mm Green Aluminium Case</h3>
+            <span class="product__price">$187</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/iphone-13-128gb-pink.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">iPhone 13 128GB - Pink</h3>
+            <span class="product__price">$543</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/macbook-pro-16-apple-m1-pro-chip-10core-cpu-16core-gpu-512gb-ssd-space-grey.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">MacBook Pro 16" Apple M1</h3>
+            <span class="product__price">$1549</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/iphone-13-pro-max-512gb-gold.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">iPhone 13 Pro Max 512GB - Gold</h3>
+            <span class="product__price">$951</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="product">
+          <img src="../images/apple-watch-series-7-gps-cellular-45mm-midnight-aluminium-casemidnight-sport-band.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Apple Watch Series 7 GPS - 41mm Midnight Aluminium Case</h3>
+            <span class="product__price">$210</span>
+          </div>
+          <i class="product__icon fa-solid fa-cart-plus"></i>
+        </div>    
+    
+      </section>
+    </div>    
     </main>
     <!-- ends main -->
     <!-- FOOTER -->
@@ -86,6 +175,6 @@
    
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html> 

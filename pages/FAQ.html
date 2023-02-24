@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="../PAGINA WEB/favicon.ico WEB/favicon.ico" type="image/x-icon">
     <!-- linkeamos css al html -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!-- uso esto para usar iconos -->
     <script src="https://kit.fontawesome.com/7f9e72111a.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP INICIO -->
@@ -23,23 +23,23 @@
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <span class="text-white fs-5 fw-bold"> Apple Store MDP</span> </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-white"></span>
               </button>
               <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item ">
+                  <li class="nav-item">
                     <a class="nav-link active text-white " aria-current="page" href="../index.html">Inicio</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="Productos.html">Productos</a>
+                    <a class="nav-link text-white" href="productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="IniciarSesion.html">Iniciar Sesion</a>
+                    <a class="nav-link text-white" href="iniciar-sesion.html">Iniciar Sesion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="Sobrenosotros.html">Sobre Nosotros</a>
+                    <a class="nav-link text-white" href="sobre-nosotros.html">Sobre Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-white" href="#">Preguntas Frecuentes</a>
@@ -57,13 +57,54 @@
     
     <!-- ends nav -->
     <main>
-        <section>
-            <div class="contenedor">
-                <img src="../images/psp-hero-banner-getsupport-image-large_2x-1920.jpg" />
-                
-                <div class="centrado">¿En que te podemos ayudar?</div>
+      <div class="contenedor">
+        <img src="../images/psp-hero-banner-getsupport-image-large_2x-1920.jpg" />
+        
+        <div class="centrado">¿En que te podemos ayudar?</div>
+    </div>
+        <section id="faq" class="py-5">
+          <h2 class="my-5 text-center">Preguntas Frecuentes sobre los productos</h2>
+          <div class="accordion w-75 mx-auto" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Necesito asesoramiento sobre los productos
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Si tenés alguna duda o consulta con respecto a alguno de nuestros productos podés contactarnos a <strong>ventas@applestoremdp.com.ar</strong> para que uno de nuestros representantes te brinde asistencia correspondiente.
+                </div>
+              </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Quiero consultar el stock
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Siempre que un producto esté disponible en la web, significa que tiene stock para su compra online.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Qué garantia tienen mis productos?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Los productos tienen 12 meses de garantía a partir de su fecha de compra.
+                </div>
+              </div>
+            </div>
+          </div>
             
+          
         </section>
         
         <!-- ends intro -->
@@ -85,6 +126,6 @@
    
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html> 

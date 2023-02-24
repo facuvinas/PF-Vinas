@@ -1,0 +1,42 @@
+footer {
+    background: #000;
+    min-height: 100px;
+    
+    
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i {
+    font-size:26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+header{
+    display: flex;
+    height: 75px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+     /* ESTO ES PARA CAMBIAR EL HEADER */
+}
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+    color: #efefef;
+}
+.carousel-inner{
+  max-height: 39rem;  
+}
+
+.main{
+    padding: 20px;
+}

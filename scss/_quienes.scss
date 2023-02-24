@@ -1,0 +1,40 @@
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#quienes-somos .container{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+#quienes-somos .texto{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#quienes-somos h2{
+    margin-top: 0px;
+}
+#quienes-somos .img-container{
+    background-image:url(../images/mano\ con\ iphone.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+
+.color-quienes{
+    color: lightgreen;
+
+}

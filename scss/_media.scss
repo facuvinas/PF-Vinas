@@ -1,0 +1,22 @@
+@media screen and (min-width:576px){
+    
+}
+@media screen and (min-width:768px){
+    
+}
+
+@media screen and (min-width:1024px){   //WEB
+    .container-products {
+        grid-template-columns: repeat(4, 1fr) !important; 
+        grid-gap: 15px;
+    }
+    
+}
+
+@media screen and (min-width:1600px){
+  .product__img{
+    height: 500px;
+    width: 100%;
+  } 
+   
+}

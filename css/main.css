@@ -1,3 +1,208 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+@media screen and (min-width: 1024px) {
+  .container-products {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-gap: 15px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .product__img {
+    height: 500px;
+    width: 100%;
+  }
+}
+.navbar a {
+  font-weight: 600 !important;
+  padding-right: 10px !important;
+  /* ESTO ES PARA CAMBIAR LETRAS DEL NAV ETC */
+}
+
+.navbar a:hover {
+  color: greenyellow !important;
+  /* ESTO ES PARA CAMBIAR COLOR CUANDO MUEVO POR EL NAV */
+}
+
+body {
+  font-family: "Roboto Mono", monospace !important;
+  overflow-x: hidden;
+}
+
+footer {
+  background: #000;
+  min-height: 100px;
+}
+
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
+header {
+  display: flex;
+  height: 75px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* ESTO ES PARA CAMBIAR EL HEADER */
+}
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #efefef;
+}
+
+.carousel-inner {
+  max-height: 39rem;
+}
+
+.main {
+  padding: 20px;
+}
+
+.form-register {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.control {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.container-products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.product__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product__title {
+  text-align: center;
+}
+
+.product__price {
+  color: #FF4E00;
+  font-weight: bold;
+}
+
+.product__icon {
+  display: block;
+  margin: 10px 0;
+}
+
+.product:hover .product__icon {
+  color: #FF4E00;
+}
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+#quienes-somos .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#quienes-somos .texto {
+  width: 50%;
+  text-align: initial;
+  padding: 0px 30px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#quienes-somos h2 {
+  margin-top: 0px;
+}
+
+#quienes-somos .img-container {
+  background-image: url(../images/mano\ con\ iphone.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 400px;
+}
+
+.color-quienes {
+  color: lightgreen;
+}
 
 /*# sourceMappingURL=main.css.map */
